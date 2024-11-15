@@ -16,7 +16,7 @@ Deepgis is a deep learning library for geospatial image classification, built on
 Install from source:
 
 ```bash
-git clone https://github.com/yourusername/deepgis.git
+git clone https://github.com/Knight0132/deepgis.git
 cd deepgis
 pip install -e .
 ```
