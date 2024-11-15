@@ -1,0 +1,46 @@
+model = ResNet34
+acc = 0.9870
+input_shape = [17, 17]
+in_channels = 4
+pretrained = False
+epoch = 10
+lr = 0.00001
+momentum = 0.9
+weight_decay = 1e-2
+batch_size = 64
+
+
+model = ResNet50
+acc = 0.9995
+input_shape = [17, 17]
+in_channels = 4
+pretrained = False
+epoch = 30
+lr = 0.0001
+momentum = 0.9
+weight_decay = 1e-2
+batch_size = 64
+
+
+model = MobileNetV3_small
+acc = 0.9378
+input_shape = [17, 17]
+in_channels = 4
+pretrained = False
+epoch = 20
+lr = 0.0001
+momentum = 0.9
+weight_decay = 1e-2
+batch_size = 64
+
+
+model = MobileNetV3_large
+acc = 0.9632
+input_shape = [17, 17]
+in_channels = 4
+pretrained = False
+epoch = 30
+lr = 0.0001
+momentum = 0.9
+weight_decay = 1e-2
+batch_size = 64
